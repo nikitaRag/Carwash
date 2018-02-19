@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         setTitle("Главное меню");
         greeting = (TextView) findViewById(R.id.greeting);
         greeting.setText("Здравствуйте, " + client.getNameSecondname());
+        //some comment
 
     }
     public void onClick(View View){
