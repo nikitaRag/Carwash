@@ -24,7 +24,6 @@ public class DataBase extends AsyncTask<String, Void, String> {
         String result = "";
         URL url = null;
         try {
-            //url = new URL("http://ragutkin.pe.hu/" + params[0]);
             url = new URL("http://nikita.autotransport.ru/carwash/" + params[0]);
             connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
