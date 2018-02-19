@@ -22,7 +22,6 @@ public class Calendar extends AppCompatActivity {
         calendar = (CalendarView) findViewById(R.id.calendarView);
         long days = 1000*60*60*24*14;
         calendar.setMinDate(calendar.getDate()-1);
-        //calendar.setMinDate(1);
         calendar.setMaxDate(calendar.getDate()+days);
         calendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
