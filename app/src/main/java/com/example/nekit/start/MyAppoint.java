@@ -125,7 +125,6 @@ public class MyAppoint extends AppCompatActivity {
         }
         Toast toast = Toast.makeText(this, "Запись отменена", Toast.LENGTH_LONG);
         toast.show();
-
         return true;
     }
 }

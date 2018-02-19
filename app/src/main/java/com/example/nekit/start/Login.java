@@ -45,7 +45,6 @@ public class Login extends AppCompatActivity {
 
     public void OnClickEnter(View view) {
         enter();
-
     }
 
     public void enter() {
