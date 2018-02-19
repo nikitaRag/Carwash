@@ -5,7 +5,6 @@ package com.example.nekit.start;
  */
 
 import android.os.AsyncTask;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;

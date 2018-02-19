@@ -7,7 +7,6 @@ import android.util.Patterns;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 import java.util.concurrent.ExecutionException;
 import static com.example.nekit.start.Registration.hash;
